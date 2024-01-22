@@ -1,0 +1,130 @@
+/* h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(235, 198, 14);
+    transition: all 1s ease-in-out 1s;
+}
+h2:hover{
+    transform:rotate(180deg)
+
+}
+
+
+.container{
+    margin: 100px;
+    padding: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-image: url(Mountain.jpg);
+    background-size:contain;
+    background-repeat: none;
+    
+}
+input{
+    background-color: beige;
+   border-radius: 20px;
+    height: 25px;
+    width: 180px;
+    border: 2px solid rgb(22, 21, 21);
+    transition: all ease 2s;
+}
+input:active{
+    transform:scale(2)
+
+}
+#button{
+    height: 50px;
+    width: 150px;
+    text-transform: capitalize;
+    /* border: 3px solid dotted black; */
+    /* border-radius: 25px;
+    font-weight: bold;
+    transition: all ease 2s;
+} */
+/* #button:hover{
+    box-shadow: 3px 3px 3px  rgb(237, 176, 77),-3px -3px 3px rgb(237, 176, 77);
+    border-radius: 25px;
+    color: white;
+    background-image:url(sub_bg.png);
+    background-size: cover;
+/* } */
+
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 10px;
+    margin: 150px;
+    margin-right: 350px;
+    margin-left: 350px;
+    /* margin: 300px; */
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    transition: all ease 2.5s;
+    background-image: url(contain_bg.jpg);
+    background-size: cover;
+
+}
+.container:hover{
+    /* box-shadow: 2px 5px 1px rgb(179, 67, 67),-2px -5px 1px rgb(179, 67, 67); */
+    box-shadow: 5px 5px 5px rgb(164, 77, 154), -5px -5px 5px rgb(87, 179, 186);
+    border-radius: 45px;
+    
+    
+}
+input{
+    height:35px;
+    width: 250px;
+    border-radius: 80px;
+    border:2.5px solid rgb(136, 232, 129);
+    transition: all 1.8s ease-out 0.1s;
+}
+input:hover{
+
+    transform: scale(1.5);
+    /* box-shadow: 1px 1px 4px white,-1px -1px 4px white; */
+    /* border-radius: 80px; */
+}
+.heading{
+    font-weight: 900px;
+    color: rgb(121, 128, 228);
+    text-transform: uppercase;
+    /* background-color: azure; */
+    animation-name: firstAnimation;
+    animation-duration: 2s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes firstAnimation{
+    from{color:rgb(171, 55, 161);}
+    to{color:rgb(76, 86, 228);}
+}
+
+button{
+    height: 50px;
+    width: 180px;
+    border-radius: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid dashed black;
+    transition: all 1s ease-in;
+}
+button:hover{
+    border-radius: 60px;
+    background-image: url(submit_bg.jpg);
+    background-size: cover;
+    color: rgb(191, 166, 24);
+    box-shadow: 2px 2px 5px rgb(170, 165, 131),-2px -2px 5px rgb(170, 165, 131);
+    cursor: pointer;
+}
