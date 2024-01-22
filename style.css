@@ -55,6 +55,7 @@ input:active{
 
 body{
     background-image: url(bg.png);
+    background-position:center;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -127,4 +128,12 @@ button:hover{
     color: rgb(191, 166, 24);
     box-shadow: 2px 2px 5px rgb(170, 165, 131),-2px -2px 5px rgb(170, 165, 131);
     cursor: pointer;
+}
+i{
+    position: absolute;
+    top:50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1.2em;
 }
